@@ -50,4 +50,8 @@ Materials, logos, fonts, and templates are property of Auburn University and are
 
 ## Maintainers
 
-Maintained by Auburn University Online. For questions, open an issue in this repository.
+Maintained by Auburn University Online.
+
+- Mazin Salim — [mzm0397@auburn.edu](mailto:mzm0397@auburn.edu)
+
+For questions, open an issue in this repository.
