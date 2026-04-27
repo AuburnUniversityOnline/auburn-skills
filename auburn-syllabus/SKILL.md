@@ -107,6 +107,8 @@ Ask the faculty for:
 
 If they don't have SLOs ready, offer to draft them based on the course title and description. Use `slo-writing-guide.md` to draft strong-verb SLOs. Always confirm with the faculty before finalizing.
 
+Then ask one optional question: "Would you like a separate **Course Objectives** section (instructor-perspective, in addition to the SLOs)? Auburn lists this as optional but recommended." If yes, ask for 3–5 Objectives using broad verbs (study, know, appreciate, etc. — see `slo-writing-guide.md`) and populate `{{OBJECTIVES_BULLET_LIST}}` in the template. If no, leave the entire `{{IF_HAS_OBJECTIVES: ... }}` block out of the rendered output.
+
 ### Step 6 — Schedule Topics
 
 Ask: "Paste your weekly topics in any format — bullets, paragraph, last semester's outline, etc. I'll organize them into a 15-week table."
@@ -179,7 +181,7 @@ Confirm what file/text you received. Identify obvious metadata (course number, i
 Before scoring:
 - "Is this a Core Curriculum course?" (affects items 18–19 of the checklist)
 - "Is this a graduate course at the 6000-level or above?" (affects item 20)
-- "Is this primarily online, in-person, or hybrid?" (affects items 21)
+- "Is this primarily online, in-person, or hybrid?" (affects item 21)
 
 ### Step 3 — Score
 
