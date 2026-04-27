@@ -1,8 +1,8 @@
-# Auburn Skills
+# AU-Stack
 
 A shared collection of **AI skill bundles** for Auburn University Online — reusable instruction packs that give any AI assistant (Claude, ChatGPT, Codex, etc.) Auburn-specific knowledge, brand standards, and document templates so that anyone at Auburn can produce on-brand, accessible, and consistent work without re-inventing the formatting every time.
 
-This repository is intended as a **community resource** for Auburn faculty, instructional designers, and staff. Skills here should be useful to the broader Auburn community — not personal one-offs.
+AU-Stack is intended as a **community resource** for Auburn faculty, instructional designers, and staff. Skills here should be useful to the broader Auburn community — not personal one-offs.
 
 ## Why this is useful
 

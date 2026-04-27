@@ -1,10 +1,10 @@
-# Contributing to Auburn Skills
+# Contributing to AU-Stack
 
-Thanks for your interest in contributing. This repository exists to make Claude more useful for **everyone at Auburn**, so please keep that bar in mind: the skills we accept here should benefit the broader Auburn community, not solve a one-off personal problem.
+Thanks for your interest in contributing. AU-Stack exists to make AI assistants (Claude, ChatGPT, Codex, etc.) more useful for **everyone at Auburn**, so please keep that bar in mind: the skills we accept here should benefit the broader Auburn community, not solve a one-off personal problem.
 
-If you have an idea that's narrow to your own workflow, that's fine — keep it as a personal skill in your own Claude install. This repo is reserved for skills that other Auburn faculty, instructional designers, or staff would realistically reuse.
+If you have an idea that's narrow to your own workflow, that's fine — keep it as a personal skill in your own AI install. AU-Stack is reserved for skills that other Auburn faculty, instructional designers, or staff would realistically reuse.
 
-## What Makes a Good Auburn Skill
+## What Makes a Good AU-Stack Skill
 
 A skill is a good fit for this repo if it meets most of these:
 
