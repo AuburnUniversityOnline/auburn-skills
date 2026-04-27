@@ -19,6 +19,9 @@ Generates Auburn University PowerPoint presentations using the official "NEW AUB
 ### `ada-transcript-docx`
 An all-in-one skill that converts a raw video transcript into an ADA 2025-compliant Word document using the Auburn Online / ADMH branded template. Applies all 10 ADA formatting rules (speaker labels, sound cues, audio descriptions, non-English language tagging, etc.) and outputs a finished, accessible `.docx`.
 
+### `auburn-syllabus`
+Creates, generates, or reviews Auburn University course syllabi for compliance with Auburn's official requirements — Provost guidance, Biggio Center template, ADA, SB 129 / Alabama Act 2024-34, Title IX, and the Auburn Classroom Behavior Policy. Three modes: build a new syllabus from scratch, generate one from pasted course details, or review an existing syllabus and produce a compliance report. All boilerplate ships verbatim from Auburn-approved sources. Outputs markdown by default; can hand off to `auburn-docx` for a branded Word version.
+
 ## Installation
 
 Each skill is distributed as a `.skill` file. To use a skill:
@@ -36,6 +39,9 @@ The `SKILL.md` inside each archive describes the exact triggers, inputs, and wor
 ├── auburn-docx.skill            # Auburn Word document template
 ├── auburn-pptx.skill            # Auburn PowerPoint template
 ├── ada-transcript-docx.skill    # ADA 2025 transcript generator
+├── auburn-syllabus.skill        # Auburn syllabus create / generate / review
+├── auburn-syllabus/             # Source for auburn-syllabus.skill
+├── docs/plans/                  # Design + implementation docs
 ├── CONTRIBUTING.md              # How to contribute a new skill
 └── README.md
 ```
