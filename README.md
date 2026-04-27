@@ -4,11 +4,14 @@ A shared collection of **AI skill bundles** for Auburn University Online — reu
 
 This repository is intended as a **community resource** for Auburn faculty, instructional designers, and staff. Skills here should be useful to the broader Auburn community — not personal one-offs.
 
-## What is a "skill"?
+## Why this is useful
 
-A skill is a packaged bundle (a `SKILL.md` instruction file plus any supporting reference text, templates, or assets, all zipped into a `.skill` archive) that an AI assistant loads on demand to perform a specific task with a known set of standards. Think of it as a portable, version-controlled "expert in a folder" — instead of writing a long prompt every time, you install the skill once and the AI knows how to do the job correctly.
-
-The format originated with Anthropic's [Claude Skills](https://www.anthropic.com/news/skills), but the content inside (markdown instructions and references) is plain text — it works in any AI tool that accepts files or system prompts. See [Using these skills](#using-these-skills) below for platform-specific instructions.
+- **Save time.** Instead of writing a 30-section syllabus or a branded report from scratch every time, install the relevant skill and ask once. What used to be hours of finding templates, copying boilerplate, and formatting becomes a few minutes of conversation.
+- **Stay on-brand automatically.** Auburn Navy, Auburn Orange, Avenir Next LT Pro typography, the official letterhead and War Eagle footer — every output matches Auburn's brand standards without anyone having to remember the hex codes or hunt down the right template file.
+- **Stay compliant.** The verbatim Provost-approved SB 129 / Act 2024-34 statement, the ADA / Office of Accessibility language, the Title IX statement, the 10 ADA 2025 transcript rules — they ship inside the skill, word-for-word. You can't accidentally paraphrase legal or policy language and create a compliance issue.
+- **One source of truth.** When Auburn updates a policy, the skill maintainer edits one file and rebuilds the archive. Everyone who uses the skill gets the new language on their next run — no chasing down stale templates across departments.
+- **Works wherever you work.** The same `.skill` file runs in Claude.ai, Claude Code, and (with a couple of extra steps) ChatGPT, Codex, Cursor, or any CLI assistant — see below. You're not locked into one AI tool.
+- **Reusable across teams.** One person at Auburn builds it; every faculty member, instructional designer, and staffer at Auburn benefits. That's the point of putting these here instead of keeping them as personal prompts.
 
 ## Available Skills
 
