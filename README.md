@@ -40,7 +40,6 @@ The `SKILL.md` inside each archive describes the exact triggers, inputs, and wor
 ├── auburn-pptx.skill            # Auburn PowerPoint template
 ├── ada-transcript-docx.skill    # ADA 2025 transcript generator
 ├── auburn-syllabus.skill        # Auburn syllabus create / generate / review
-├── auburn-syllabus/             # Source for auburn-syllabus.skill
 ├── CONTRIBUTING.md              # How to contribute a new skill
 └── README.md
 ```
