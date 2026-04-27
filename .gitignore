@@ -5,3 +5,7 @@
 node_modules/
 __pycache__/
 *.pyc
+
+# Local-only working files (do not commit)
+CLAUDE.md
+docs/plans/
