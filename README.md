@@ -24,9 +24,6 @@ Generates Auburn University PowerPoint presentations using the official "NEW AUB
 ### `ada-transcript-docx`
 An all-in-one skill that converts a raw video transcript into an ADA 2025-compliant Word document using the Auburn Online / ADMH branded template. Applies all 10 ADA formatting rules (speaker labels, sound cues, audio descriptions, non-English language tagging, etc.) and outputs a finished, accessible `.docx`.
 
-### `auburn-syllabus`
-Creates, generates, or reviews Auburn University course syllabi for compliance with Auburn's official requirements — Provost guidance, Biggio Center template, ADA, SB 129 / Alabama Act 2024-34, Title IX, and the Auburn Classroom Behavior Policy. Three modes: build a new syllabus from scratch, generate one from pasted course details, or review an existing syllabus and produce a compliance report. All boilerplate ships verbatim from Auburn-approved sources. Outputs markdown by default; can hand off to `auburn-docx` for a branded Word version.
-
 ## Using these skills
 
 Each skill is distributed as a `.skill` file (a zip archive containing `SKILL.md` plus reference and asset files). The same archive works across multiple AI platforms — pick the one you use.
@@ -35,7 +32,7 @@ Each skill is distributed as a `.skill` file (a zip archive containing `SKILL.md
 
 1. Download the relevant `.skill` file from this repository.
 2. In Claude.ai, go to **Settings → Capabilities → Skills** (or the Skills section of your workspace), upload the `.skill` file, and enable it.
-3. Trigger it in any conversation by stating the task — e.g. "Create an Auburn-branded report on …" or "Review my syllabus for SB 129 compliance."
+3. Trigger it in any conversation by stating the task — e.g. "Create an Auburn-branded report on …" or "Format this video transcript for ADA compliance."
 
 ### Claude Code (CLI) — native support
 
@@ -82,7 +79,6 @@ Most CLI assistants accept either a system prompt file or a project-level instru
 ├── auburn-docx.skill            # Auburn Word document template
 ├── auburn-pptx.skill            # Auburn PowerPoint template
 ├── ada-transcript-docx.skill    # ADA 2025 transcript generator
-├── auburn-syllabus.skill        # Auburn syllabus create / generate / review
 ├── CONTRIBUTING.md              # How to contribute a new skill
 └── README.md
 ```
